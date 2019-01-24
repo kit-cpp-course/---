@@ -42,7 +42,3 @@ void LeftRoom1::Update(sf::RenderWindow *window)
 	window->draw(R5wall_door2);
 
 }
-
-LeftRoom1::~LeftRoom1()
-{
-}

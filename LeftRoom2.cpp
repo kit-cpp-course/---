@@ -35,7 +35,3 @@ void LeftRoom2::Update(sf::RenderWindow *window)
 	window->draw(R9wall_door1);
 	window->draw(R9wall_door2);
 }
-
-LeftRoom2::~LeftRoom2()
-{
-}

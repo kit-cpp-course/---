@@ -44,7 +44,3 @@ void Finel::Update(sf::RenderWindow *window)
 	Portal2.setPosition(sf::Vector2f(620, 370));
 	window->draw(Portal2);
 }
-
-Finel::~Finel()
-{
-}

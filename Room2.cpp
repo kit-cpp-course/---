@@ -40,7 +40,3 @@ void Room2::Update(sf::RenderWindow *window)
 	R8wall_door2.setPosition(sf::Vector2f(1190, 370));
 	window->draw(R8wall_door2);
 }
-
-Room2::~Room2()
-{
-}

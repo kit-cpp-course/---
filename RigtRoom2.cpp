@@ -35,7 +35,3 @@ void RightRoom2::Update(sf::RenderWindow *window)
 	window->draw(R7wall_door1);
 	window->draw(R7wall_door2);
 }
-
-RightRoom2::~RightRoom2()
-{
-}

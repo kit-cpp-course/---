@@ -172,7 +172,3 @@ void Easter_egg::Update(sf::RenderWindow *window)
 	EE5.setPosition(sf::Vector2f(600, 717));
 	window->draw(EE5);
 }
-
-Easter_egg::~Easter_egg()
-{
-}

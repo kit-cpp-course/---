@@ -1,14 +1,13 @@
 #pragma once
 #include <SFML/Graphics.hpp>
-
+//пасхальная комната
 class Easter_egg
 {
 public:
-	Easter_egg();
-	~Easter_egg();
+	Easter_egg(); //Конструктор Easter_egg
 	void Update(sf::RenderWindow *window);
 private:
-	sf::RectangleShape EEbackground;
+	sf::RectangleShape EEbackground; //Этот и следующие компоненты- объекты, которые рисуются на карте
 	sf::RectangleShape EEwall_1;
 	sf::RectangleShape EEwall_2;
 	sf::RectangleShape EEwall_door2;

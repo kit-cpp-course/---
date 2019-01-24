@@ -8,12 +8,6 @@ Hero::Hero()
 	Rshape.setPosition(sf::Vector2f(600, 400));
 }
 
-Hero::~Hero()
-{
-
-}
-
-
 
 
 void Hero::walking()

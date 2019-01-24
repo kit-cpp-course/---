@@ -196,7 +196,3 @@ void EndGame::Update(sf::RenderWindow *window)
 	EndPortal2.setPosition(sf::Vector2f(170, 700));
 	window->draw(EndPortal2);
 }
-
-EndGame::~EndGame()
-{
-}

@@ -30,7 +30,3 @@ void StartMap::Update(sf::RenderWindow *window)
 	window->draw(Rwall_2);
 	window->draw(Rwall_door);
 }
-
-StartMap::~StartMap()
-{
-}
