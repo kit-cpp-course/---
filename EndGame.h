@@ -1,13 +1,13 @@
 #pragma once
 #include <SFML/Graphics.hpp>
-// Комната, где можно либо начать игра заного или закрыть её
+// A room where you can start the game again or close it
 class EndGame
 {
 public:
-	EndGame(); //Конструктор класса EndGame
-	void Update(sf::RenderWindow *window); // Выресовка стен
+	EndGame(); //constructor
+	void Update(sf::RenderWindow *window); // Drawing walls
 private:
-	sf::RectangleShape Endbackground; //Этот и следующие компоненты- объекты, которые рисуются на карте
+	sf::RectangleShape Endbackground; //This and the following components are objects that are drawn on the map
 	sf::RectangleShape Endwall_1;
 	sf::RectangleShape Endwall_2;
 	sf::RectangleShape EndPortal1;

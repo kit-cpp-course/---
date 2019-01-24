@@ -1,13 +1,13 @@
 #pragma once
 #include <SFML/Graphics.hpp>
-// одна из комнат лабиринта
+// one of the rooms
 class RightRoom2
 {
 public:
-	RightRoom2(); //конструктор
-	void Update(sf::RenderWindow *window);
+	RightRoom2(); //constructor
+	void Update(sf::RenderWindow *window); // Drawing walls
 private:
-	sf::RectangleShape R7background; //Этот и следующие компоненты- объекты, которые рисуются на карте
+	sf::RectangleShape R7background; //This and the following components are objects that are drawn on the map
 	sf::RectangleShape R7wall_1;
 	sf::RectangleShape R7wall_2;
 	sf::RectangleShape R7wall_door1;

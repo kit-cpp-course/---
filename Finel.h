@@ -1,13 +1,13 @@
 #pragma once
 #include <SFML/Graphics.hpp>
-// Финальная комната 
+// Finel room 
 class Finel
 {
 public:
-	Finel(); //конструктор
-	void Update(sf::RenderWindow *window);
+	Finel(); //constructor
+	void Update(sf::RenderWindow *window); // Drawing walls
 private:
-	sf::RectangleShape R10background; //Этот и следующие компоненты- объекты, которые рисуются на карте
+	sf::RectangleShape R10background; //This and the following components are objects that are drawn on the map
 	sf::RectangleShape R10wall_1;
 	sf::RectangleShape R10wall_2;
 	sf::RectangleShape R10wall_door2;

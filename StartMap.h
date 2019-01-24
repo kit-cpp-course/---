@@ -1,13 +1,13 @@
 #include <SFML/Graphics.hpp>
 #pragma once
-// Начальная комната
+// Start room
 class StartMap
 {
 public:
-	StartMap(); //конструктор
-	void Update(sf::RenderWindow *window);
+	StartMap(); //constructor
+	void Update(sf::RenderWindow *window); // Drawing walls
 private:
-	sf::RectangleShape Rbackground; //Этот и следующие компоненты- объекты, которые рисуются на карте
+	sf::RectangleShape Rbackground; //This and the following components are objects that are drawn on the map
 	sf::RectangleShape Rwall_1;
 	sf::RectangleShape Rwall_2;
 	sf::RectangleShape Rwall_door;

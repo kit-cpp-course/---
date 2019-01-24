@@ -1,12 +1,12 @@
 #include <SFML/Graphics.hpp>
 #pragma once
 #include "StartMap.h"
-// Класс отвечающий за передвижения персонажа
+// Class responsible for the movement of the character
 class Hero
 {
 public:
-	Hero(); //конструктор
-	sf::RectangleShape Return_Rshape() { return Rshape; };  //Передвижение персонажа
+	Hero(); //constructor
+	sf::RectangleShape Return_Rshape() { return Rshape; };  //Character movement
 	void walking();
 	void CheckTransition();
 	int counter() { return i; };
